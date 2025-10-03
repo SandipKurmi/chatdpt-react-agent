@@ -1,0 +1,19 @@
+{
+  "name": "chatdpt-react-agent",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.78",
+    "@langchain/groq": "^0.2.4",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/tavily": "^0.1.5",
+    "zod": "^4.1.11"
+  }
+}
